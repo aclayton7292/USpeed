@@ -43,7 +43,7 @@ public class UserDataService implements DataAccessInterface<UserModel> {
 
             log.debug("Iterating over query results");
             while(srs.next()){
-                results.add(new UserModel(srs.getInt("ID"), srs.getString("USERNAME"), srs.getString("PASSWORD")));
+                results.add(new UserModel(srs.getInt("ID"), srs.getString("USERNAME"), srs.getString("PASSWORD"), srs.getString("EMAIL"), srs.getString("DEVICE_ID")));
             }
         } catch (Exception e){
             log.error("Error in UserDataService.findAll()");
@@ -94,7 +94,7 @@ public class UserDataService implements DataAccessInterface<UserModel> {
 
             log.debug("Checking for query results");
             if (srs.next()){
-                result = Optional.of(new UserModel(srs.getInt("ID"), srs.getString("USERNAME"), srs.getString("PASSWORD")));
+                result = Optional.of(new UserModel(srs.getInt("ID"), srs.getString("USERNAME"), srs.getString("PASSWORD"), srs.getString("EMAIL"), srs.getString("DEVICE_ID")));
             }
         } catch (Exception e){
             log.error("Error in UserDataService.findBy()");
@@ -120,12 +120,12 @@ public class UserDataService implements DataAccessInterface<UserModel> {
     public boolean create(UserModel userModel) {
         log.info("In UserDataService.create()");
 
-        String sql = "INSERT INTO USERS (USERNAME, PASSWORD) VALUES (?, ?)";
+        String sql = "INSERT INTO USERS (USERNAME, PASSWORD, EMAIL, DEVICE_ID) VALUES (?, ?, ?, ?)";
 
         try {
             log.debug("Executing sql query");
             log.info("Exiting UserDataService.create()");
-            return !(template.update(sql, userModel.getUsername(), userModel.getPassword()) == 0);
+            return !(template.update(sql, userModel.getUsername(), userModel.getPassword(), userModel.getEmail(), userModel.getDeviceId()) == 0);
         } catch (Exception e){
             log.error("Error in UserDataService.create()");
             log.error(Arrays.toString(e.getStackTrace()));
