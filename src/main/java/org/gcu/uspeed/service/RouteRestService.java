@@ -87,12 +87,12 @@ public class RouteRestService {
      * @return ResponseEntity
      */
     @PostMapping(path = "/create", produces = {MediaType.APPLICATION_JSON_VALUE})
-    public ResponseEntity<?> register(@RequestBody RouteModel route){
+    public ResponseEntity<?> create(@RequestBody RouteModel route){
         try {
             log.info("In RouteRestService.create()");
             return new ResponseEntity<>(routeService.create(route), HttpStatus.OK);
         } catch (Exception e){
-            log.error("Error in RouteRestService.create()");
+            log.error("Error in RouteRestService.creates()");
             log.error(Arrays.toString(e.getStackTrace()));
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }

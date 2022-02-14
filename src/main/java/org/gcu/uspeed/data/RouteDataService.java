@@ -43,7 +43,7 @@ public class RouteDataService implements DataAccessInterface<RouteModel> {
 
             log.debug("Iterating over query results");
             while(srs.next()){
-                results.add(new RouteModel(srs.getInt("ID"), srs.getString("ROUTE"), srs.getInt("USER_ID")));
+                results.add(new RouteModel(srs.getInt("ID"), srs.getString("ROUTE"), srs.getInt("USERS_ID")));
             }
         } catch (Exception e){
             log.error("Error in RouteDataService.findAll()");
@@ -65,7 +65,7 @@ public class RouteDataService implements DataAccessInterface<RouteModel> {
     public List<RouteModel> findAllWithID(int id) {
     	log.info("In RouteDataService.findAllWithID()");
 
-        String sql = "SELECT * FROM ROUTES WHERE USER_ID = ?";
+        String sql = "SELECT * FROM ROUTES WHERE USERS_ID = ?";
         ArrayList<RouteModel> results = new ArrayList<>();
 
         try {
@@ -74,7 +74,7 @@ public class RouteDataService implements DataAccessInterface<RouteModel> {
 
             log.debug("Iterating over query results");
             while(srs.next()){
-                results.add(new RouteModel(srs.getInt("ID"), srs.getString("ROUTE"), srs.getInt("USER_ID")));
+                results.add(new RouteModel(srs.getInt("ID"), srs.getString("ROUTE"), srs.getInt("USERS_ID")));
             }
         } catch (Exception e){
             log.error("Error in RouteDataService.findAll()");
@@ -119,7 +119,7 @@ public class RouteDataService implements DataAccessInterface<RouteModel> {
 
             log.debug("Checking for query results");
             if (srs.next()){
-                result = Optional.of(new RouteModel(srs.getInt("ID"), srs.getString("ROUTE"), srs.getInt("USER_ID")));
+                result = Optional.of(new RouteModel(srs.getInt("ID"), srs.getString("ROUTE"), srs.getInt("USERS_ID")));
             }
         } catch (Exception e){
             log.error("Error in RouteDataService.findBy()");
@@ -145,14 +145,14 @@ public class RouteDataService implements DataAccessInterface<RouteModel> {
     public boolean create(RouteModel routeModel) {
         log.info("In routeDataService.create()");
 
-        String sql = "INSERT INTO ROUTES (ROUTE, USER_ID) VALUES (?, ?)";
+        String sql = "INSERT INTO ROUTES (ROUTE, USERS_ID) VALUES (?, ?)";
 
         try {
             log.debug("Executing sql query");
             log.info("Exiting RouteDataService.create()");
             return !(template.update(sql, routeModel.getTrackedRoute(), routeModel.getUser_id()) == 0);
         } catch (Exception e){
-            log.error("Error in UserDataService.create()");
+            log.error("Error in RouteDataService.create()");
             log.error(Arrays.toString(e.getStackTrace()));
             throw new DatabaseException();
         }
