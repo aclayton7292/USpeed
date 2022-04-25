@@ -1,14 +1,15 @@
 package org.gcu.uspeed.business;
 
-import lombok.extern.slf4j.Slf4j;
+import java.util.List;
+import java.util.Optional;
 
 import org.gcu.uspeed.data.DataAccessInterface;
 import org.gcu.uspeed.model.RouteModel;
 import org.gcu.uspeed.utility.ItemNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import java.util.List;
-import java.util.Optional;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service("routeBusinessService")
@@ -45,7 +46,7 @@ public class RouteBusinessService implements RouteBusinessInterface<RouteModel> 
             return results;
         }
     }
-    
+
     /**
      * Business function for returning all routes from the database under a given user id
      * @param Int id, the id of the desired user
@@ -70,7 +71,7 @@ public class RouteBusinessService implements RouteBusinessInterface<RouteModel> 
             return results;
         }
     }
-    
+
     /**
      * Business function for returning a route from the database under a given route id
      * @param RouteModel containing the id of the desired route
@@ -87,10 +88,10 @@ public class RouteBusinessService implements RouteBusinessInterface<RouteModel> 
          log.info("Exiting UserBusinessService.login()");
          return result.orElseThrow(ItemNotFoundException :: new);
      }
-    
-    
 
-    
+
+
+
 
     /**
      * Business function for adding a new route to the database

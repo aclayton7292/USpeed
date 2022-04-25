@@ -1,0 +1,360 @@
+2022-04-24 19:43:56.746  INFO 39777 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:43:56.953  INFO 39777 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 39777 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:43:56.954  INFO 39777 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:43:57.039  INFO 39777 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:43:57.040  INFO 39777 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:43:57.040  INFO 39777 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:43:57.043  INFO 39777 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:43:57.043  INFO 39777 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 88 ms
+2022-04-24 19:43:57.071  INFO 39777 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:43:57.094  INFO 39777 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 19:43:57.102  INFO 39777 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 19:43:57.104  INFO 39777 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.319 seconds (JVM running for 28782.7)
+2022-04-24 19:43:57.104  INFO 39777 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 19:46:12.281  INFO 39777 --- [RMI TCP Connection(604)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-24 19:46:12.293  INFO 39777 --- [RMI TCP Connection(604)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:46:17.006  INFO 90758 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90758 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:46:17.007  INFO 90758 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:46:17.025  INFO 90758 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-24 19:46:17.025  INFO 90758 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-24 19:46:17.385  INFO 90758 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:46:17.392  INFO 90758 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:46:17.392  INFO 90758 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:46:17.413  INFO 90758 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:46:17.413  INFO 90758 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 388 ms
+2022-04-24 19:46:17.500  INFO 90758 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:46:17.585  INFO 90758 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 19:46:17.598  INFO 90758 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 19:46:17.603  INFO 90758 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.736 seconds (JVM running for 1.229)
+2022-04-24 19:46:25.796  INFO 90758 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 19:46:25.796  INFO 90758 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 19:46:25.797  INFO 90758 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-24 19:47:00.584  INFO 90758 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:47:00.620  INFO 90758 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90758 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:47:00.620  INFO 90758 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:47:00.694  INFO 90758 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:47:00.694  INFO 90758 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:47:00.694  INFO 90758 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:47:00.698  INFO 90758 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:47:00.698  INFO 90758 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 77 ms
+2022-04-24 19:47:00.709  WARN 90758 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'blogController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.gcu.uspeed.controller.BlogController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2442d03c]
+2022-04-24 19:47:00.709  INFO 90758 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-24 19:47:00.711  INFO 90758 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-24 19:47:00.720 ERROR 90758 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'blogController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.gcu.uspeed.controller.BlogController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2442d03c]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1286) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.gcu.uspeed.USpeedApplication.main(USpeedApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.gcu.uspeed.controller.BlogController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2442d03c]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.3.jar:5.3.3]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: BlogModel
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.3.jar:5.3.3]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: BlogModel
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.4.2.jar:2.4.2]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 30 common frames omitted
+
+2022-04-24 19:48:05.960  INFO 90758 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90758 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:48:05.960  INFO 90758 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:48:06.026  INFO 90758 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:48:06.026  INFO 90758 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:48:06.027  INFO 90758 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:48:06.030  INFO 90758 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:48:06.030  INFO 90758 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2022-04-24 19:48:06.042  WARN 90758 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'blogController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.gcu.uspeed.controller.BlogController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d873b78]
+2022-04-24 19:48:06.042  INFO 90758 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-24 19:48:06.044  INFO 90758 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-24 19:48:06.045 ERROR 90758 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'blogController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.gcu.uspeed.controller.BlogController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d873b78]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1286) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.2.jar:2.4.2]
+	at org.gcu.uspeed.USpeedApplication.main(USpeedApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.2.jar:2.4.2]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.gcu.uspeed.controller.BlogController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1d873b78]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.3.jar:5.3.3]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.3.jar:5.3.3]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: BlogModel
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.3.jar:5.3.3]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: BlogModel
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.4.2.jar:2.4.2]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 30 common frames omitted
+
+2022-04-24 19:48:25.705  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:48:25.706  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:48:25.722  INFO 90972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-24 19:48:25.722  INFO 90972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-24 19:48:26.051  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:48:26.055  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:48:26.055  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:48:26.075  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:48:26.075  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 352 ms
+2022-04-24 19:48:26.160  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:48:26.240  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 19:48:26.252  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 19:48:26.257  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.681 seconds (JVM running for 1.18)
+2022-04-24 19:48:32.013  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 19:48:32.014  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 19:48:32.014  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-24 19:51:08.760  INFO 90972 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:51:09.002  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:51:09.002  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:51:09.119  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:51:09.120  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:51:09.120  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:51:09.124  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:51:09.124  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2022-04-24 19:51:09.166  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:51:09.192  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 19:51:09.197  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 19:51:09.199  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.419 seconds (JVM running for 164.121)
+2022-04-24 19:51:09.200  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 19:51:10.620  INFO 90972 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:51:10.657  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:51:10.657  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:51:10.731  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:51:10.731  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:51:10.731  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:51:10.735  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:51:10.735  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2022-04-24 19:51:10.764  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:51:10.785  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 19:51:10.790  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 19:51:10.792  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.15 seconds (JVM running for 165.713)
+2022-04-24 19:51:10.792  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 19:51:22.020  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 19:51:22.021  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 19:51:22.022  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-24 19:59:16.623  INFO 90972 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:59:16.831  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 19:59:16.831  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 19:59:16.897  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 19:59:16.898  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 19:59:16.898  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 19:59:16.901  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 19:59:16.901  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2022-04-24 19:59:16.928  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 19:59:16.952  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 19:59:16.956  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 19:59:16.958  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.305 seconds (JVM running for 651.871)
+2022-04-24 19:59:16.959  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 19:59:21.539  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 19:59:21.540  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 19:59:21.542  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-24 20:00:34.298  INFO 90972 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 20:00:34.341  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 20:00:34.341  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 20:00:34.400  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 20:00:34.400  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 20:00:34.400  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 20:00:34.403  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 20:00:34.403  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 61 ms
+2022-04-24 20:00:34.426  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 20:00:34.446  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 20:00:34.451  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 20:00:34.452  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.122 seconds (JVM running for 729.364)
+2022-04-24 20:00:34.453  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 20:00:53.828  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 20:00:53.829  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 20:00:53.832  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-04-24 21:24:00.519  INFO 90972 --- [http-nio-8080-exec-1] org.gcu.uspeed.service.UserRestService   : In UserRestService.login()
+2022-04-24 21:24:00.520  INFO 90972 --- [http-nio-8080-exec-1] o.g.uspeed.business.UserBusinessService  : In UserBusinessService.login()
+2022-04-24 21:24:00.520  INFO 90972 --- [http-nio-8080-exec-1] org.gcu.uspeed.data.UserDataService      : In UserDataService.findBy()
+2022-04-24 21:24:00.528  INFO 90972 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-24 21:24:00.696  INFO 90972 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-24 21:24:00.723  INFO 90972 --- [http-nio-8080-exec-1] org.gcu.uspeed.data.UserDataService      : Exiting UserDataService.findBy()
+2022-04-24 21:24:00.723  INFO 90972 --- [http-nio-8080-exec-1] o.g.uspeed.business.UserBusinessService  : Exiting UserBusinessService.login()
+2022-04-24 21:24:00.723  INFO 90972 --- [http-nio-8080-exec-1] org.gcu.uspeed.service.UserRestService   : UserRestService.login() found no results
+2022-04-24 21:24:05.604  INFO 90972 --- [http-nio-8080-exec-2] org.gcu.uspeed.service.UserRestService   : In UserRestService.getAll()
+2022-04-24 21:24:05.604  INFO 90972 --- [http-nio-8080-exec-2] o.g.uspeed.business.UserBusinessService  : In UserBusinessService.findAll()
+2022-04-24 21:24:05.604  INFO 90972 --- [http-nio-8080-exec-2] org.gcu.uspeed.data.UserDataService      : In UserDataService.findAll()
+2022-04-24 21:24:05.611  INFO 90972 --- [http-nio-8080-exec-2] org.gcu.uspeed.data.UserDataService      : Exiting UserDataService.findAll()
+2022-04-24 21:24:05.611  INFO 90972 --- [http-nio-8080-exec-2] o.g.uspeed.business.UserBusinessService  : Exiting UserBusinessService.findAll()
+2022-04-24 21:24:13.741  INFO 90972 --- [http-nio-8080-exec-4] org.gcu.uspeed.service.UserRestService   : In UserRestService.login()
+2022-04-24 21:24:13.742  INFO 90972 --- [http-nio-8080-exec-4] o.g.uspeed.business.UserBusinessService  : In UserBusinessService.login()
+2022-04-24 21:24:13.742  INFO 90972 --- [http-nio-8080-exec-4] org.gcu.uspeed.data.UserDataService      : In UserDataService.findBy()
+2022-04-24 21:24:13.745  INFO 90972 --- [http-nio-8080-exec-4] org.gcu.uspeed.data.UserDataService      : Exiting UserDataService.findBy()
+2022-04-24 21:24:13.746  INFO 90972 --- [http-nio-8080-exec-4] o.g.uspeed.business.UserBusinessService  : Exiting UserBusinessService.login()
+2022-04-24 21:27:21.099  INFO 90972 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:27:21.099  INFO 90972 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-24 21:27:21.102  INFO 90972 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-24 21:27:21.288  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 21:27:21.288  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 21:27:21.354  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 21:27:21.354  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 21:27:21.354  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 21:27:21.359  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 21:27:21.359  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2022-04-24 21:27:21.385  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:27:21.408  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 21:27:21.413  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 21:27:21.414  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.287 seconds (JVM running for 5878.948)
+2022-04-24 21:27:21.415  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 21:27:31.947  INFO 90972 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:27:31.991  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 21:27:31.991  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 21:27:32.049  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 21:27:32.050  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 21:27:32.050  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 21:27:32.052  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 21:27:32.053  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 61 ms
+2022-04-24 21:27:32.075  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:27:32.093  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 21:27:32.097  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 21:27:32.099  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.118 seconds (JVM running for 5889.632)
+2022-04-24 21:27:32.099  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 21:28:43.369  INFO 90972 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:28:43.410  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 21:28:43.410  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 21:28:43.480  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 21:28:43.481  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 21:28:43.481  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 21:28:43.484  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 21:28:43.484  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 73 ms
+2022-04-24 21:28:43.509  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:28:43.534  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 21:28:43.538  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 21:28:43.540  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.141 seconds (JVM running for 5961.072)
+2022-04-24 21:28:43.540  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 21:28:49.537  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 21:28:49.537  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 21:28:49.538  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-24 21:32:43.867  INFO 90972 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:32:44.121  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 21:32:44.121  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 21:32:44.190  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 21:32:44.190  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 21:32:44.190  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 21:32:44.193  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 21:32:44.193  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 71 ms
+2022-04-24 21:32:44.218  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:32:44.244  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 21:32:44.248  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 21:32:44.250  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.35 seconds (JVM running for 6201.779)
+2022-04-24 21:32:44.250  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 21:32:48.711  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 21:32:48.711  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 21:32:48.714  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-24 21:34:15.966  INFO 90972 --- [Thread-43] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:34:16.012  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 21:34:16.012  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 21:34:16.076  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 21:34:16.076  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 21:34:16.076  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 21:34:16.079  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 21:34:16.079  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 66 ms
+2022-04-24 21:34:16.101  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:34:16.121  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 21:34:16.125  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 21:34:16.127  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.125 seconds (JVM running for 6293.655)
+2022-04-24 21:34:16.128  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 21:34:19.473  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 21:34:19.484  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 21:34:19.485  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-24 21:34:28.730  INFO 90972 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:34:28.770  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Starting USpeedApplication using Java 17.0.1 on Anthonys-MacBook-Pro.local with PID 90972 (/Users/anthony/Documents/STS_Workspace/USpeed/target/classes started by anthony in /Users/anthony/Documents/STS_Workspace/USpeed)
+2022-04-24 21:34:28.771  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : No active profile set, falling back to default profiles: default
+2022-04-24 21:34:28.832  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-24 21:34:28.832  INFO 90972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-24 21:34:28.832  INFO 90972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-04-24 21:34:28.835  INFO 90972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-24 21:34:28.835  INFO 90972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2022-04-24 21:34:28.859  INFO 90972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-24 21:34:28.879  INFO 90972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-24 21:34:28.884  INFO 90972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-24 21:34:28.885  INFO 90972 --- [restartedMain] org.gcu.uspeed.USpeedApplication         : Started USpeedApplication in 0.129 seconds (JVM running for 6306.413)
+2022-04-24 21:34:28.886  INFO 90972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-24 21:34:29.314  INFO 90972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-24 21:34:29.314  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-24 21:34:29.316  INFO 90972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-24 22:03:54.428  INFO 90972 --- [http-nio-8080-exec-4] org.gcu.uspeed.service.UserRestService   : In UserRestService.getAll()
+2022-04-24 22:03:54.429  INFO 90972 --- [http-nio-8080-exec-4] o.g.uspeed.business.UserBusinessService  : In UserBusinessService.findAll()
+2022-04-24 22:03:54.429  INFO 90972 --- [http-nio-8080-exec-4] org.gcu.uspeed.data.UserDataService      : In UserDataService.findAll()
+2022-04-24 22:03:54.429  INFO 90972 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-04-24 22:03:54.462  INFO 90972 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-04-24 22:03:54.467  INFO 90972 --- [http-nio-8080-exec-4] org.gcu.uspeed.data.UserDataService      : Exiting UserDataService.findAll()
+2022-04-24 22:03:54.467  INFO 90972 --- [http-nio-8080-exec-4] o.g.uspeed.business.UserBusinessService  : Exiting UserBusinessService.findAll()
+2022-04-24 22:13:22.673  INFO 90972 --- [http-nio-8080-exec-6] org.gcu.uspeed.service.RouteRestService  : In RouteRestService.getAll()
+2022-04-24 22:13:22.675  INFO 90972 --- [http-nio-8080-exec-6] o.g.u.business.RouteBusinessService      : In RouteBusinessService.findAll()
+2022-04-24 22:13:22.675  INFO 90972 --- [http-nio-8080-exec-6] org.gcu.uspeed.data.RouteDataService     : In RouteDataService.findAll()
+2022-04-24 22:13:22.695  INFO 90972 --- [http-nio-8080-exec-6] org.gcu.uspeed.data.RouteDataService     : Exiting RouteDataService.findAll()
+2022-04-24 22:13:22.695  INFO 90972 --- [http-nio-8080-exec-6] o.g.u.business.RouteBusinessService      : Exiting UserBusinessService.findAll()
+2022-04-24 22:19:25.158  INFO 90972 --- [http-nio-8080-exec-9] org.gcu.uspeed.service.RouteRestService  : In RouteRestService.getAll()
+2022-04-24 22:19:25.158  INFO 90972 --- [http-nio-8080-exec-9] o.g.u.business.RouteBusinessService      : In RouteBusinessService.findAll()
+2022-04-24 22:19:25.158  INFO 90972 --- [http-nio-8080-exec-9] org.gcu.uspeed.data.RouteDataService     : In RouteDataService.findAll()
+2022-04-24 22:19:25.161  INFO 90972 --- [http-nio-8080-exec-9] org.gcu.uspeed.data.RouteDataService     : Exiting RouteDataService.findAll()
+2022-04-24 22:19:25.161  INFO 90972 --- [http-nio-8080-exec-9] o.g.u.business.RouteBusinessService      : Exiting UserBusinessService.findAll()
+2022-04-24 23:12:18.084  WARN 90972 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=25m53s238ms).
+2022-04-24 23:57:24.669  WARN 90972 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=29m1s333ms).

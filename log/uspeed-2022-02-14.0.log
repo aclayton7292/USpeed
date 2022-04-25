@@ -1,0 +1,12 @@
+2022-02-14 01:34:37.817  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h40m33s253ms).
+2022-02-14 02:07:39.754  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=33m1s937ms).
+2022-02-14 04:04:46.187  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h57m6s433ms).
+2022-02-14 06:04:03.901  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h59m17s714ms).
+2022-02-14 07:55:55.585  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h51m51s684ms).
+2022-02-14 08:26:23.327  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=30m27s741ms).
+2022-02-14 08:42:41.280  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=16m17s953ms).
+2022-02-14 08:57:10.460  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=14m29s180ms).
+2022-02-14 08:57:17.646  INFO 8048 --- [RMI TCP Connection(290)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-14 08:57:17.657  INFO 8048 --- [RMI TCP Connection(290)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-14 08:57:17.657  INFO 8048 --- [RMI TCP Connection(290)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-02-14 08:57:17.658  INFO 8048 --- [RMI TCP Connection(290)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.

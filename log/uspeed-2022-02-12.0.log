@@ -1,0 +1,17 @@
+2022-02-12 00:35:26.622  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h21m36s419ms).
+2022-02-12 01:55:47.147  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h20m20s526ms).
+2022-02-12 03:01:59.668  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h6m12s521ms).
+2022-02-12 03:32:44.512  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=30m44s844ms).
+2022-02-12 04:55:27.973  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h22m43s461ms).
+2022-02-12 06:17:52.361  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h22m24s388ms).
+2022-02-12 07:37:15.657  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h19m23s296ms).
+2022-02-12 08:58:33.082  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h21m17s425ms).
+2022-02-12 10:03:55.839  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h5m22s757ms).
+2022-02-12 11:27:45.073  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h23m49s234ms).
+2022-02-12 12:50:56.573  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h23m11s500ms).
+2022-02-12 14:11:09.096  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h20m12s523ms).
+2022-02-12 15:18:51.822  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h7m42s726ms).
+2022-02-12 16:48:46.100  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h29m54s278ms).
+2022-02-12 18:44:11.818  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h55m25s718ms).
+2022-02-12 20:35:50.425  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h51m38s607ms).
+2022-02-12 22:30:55.146  WARN 8048 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h55m4s720ms).

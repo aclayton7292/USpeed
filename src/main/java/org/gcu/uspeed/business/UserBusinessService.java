@@ -1,6 +1,7 @@
 package org.gcu.uspeed.business;
 
-import lombok.extern.slf4j.Slf4j;
+import java.util.List;
+import java.util.Optional;
 
 import org.gcu.uspeed.data.DataAccessInterface;
 import org.gcu.uspeed.model.UserModel;
@@ -8,8 +9,8 @@ import org.gcu.uspeed.utility.DuplicateItemException;
 import org.gcu.uspeed.utility.ItemNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import java.util.List;
-import java.util.Optional;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service("userBusinessService")

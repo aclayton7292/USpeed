@@ -1,6 +1,6 @@
 package org.gcu.uspeed.service;
 
-import lombok.extern.slf4j.Slf4j;
+import java.util.Arrays;
 
 import org.gcu.uspeed.business.RouteBusinessInterface;
 import org.gcu.uspeed.model.RouteModel;
@@ -9,8 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import java.util.Arrays;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
@@ -80,7 +85,7 @@ public class RouteRestService {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-    
+
     /**
      * REST endpoint mapping for creating a new route
      * @param RouteModel containing the information of the new route
@@ -97,6 +102,7 @@ public class RouteRestService {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
 
     /**
      * REST endpoint mapping for deleting a route
