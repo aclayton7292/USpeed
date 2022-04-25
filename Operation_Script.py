@@ -1,3 +1,4 @@
+import string
 import threading
 from types import resolve_bases
 from sense_hat import SenseHat
@@ -5,10 +6,13 @@ from timeit import default_timer as timer
 import sense_hat
 import requests
 import json
+import gps 
 from time import sleep
 from sense_hat.stick import ACTION_PRESSED
 
 sense = SenseHat()
+session = gps.gps("localhost", "2947")
+session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)
 time = 0
 init_speed = 0
 curr_speed = 0
@@ -23,6 +27,9 @@ def show_digit(val, xd, yd, r, g, b):
     xt = p % 3
     yt = (p-offset) // 3
     sense.set_pixel(xt+xd, yt+yd, r*NUMS[p], g*NUMS[p], b*NUMS[p])
+
+
+
 
 # Displays a two-digits positive number (0-99)
 def show_number(val, r, g, b):
@@ -51,21 +58,54 @@ def acceleration():
             sleep(0.4)
     else:
         print("stopping accel") 
-        
-
 
 #function for the gps monitoring
 def gps():
-    while is_running:
-        print("gps coords")
-        sleep(6) #will poll coordinates every 6 seconds
-        
+    with open("route.json", "a") as out_file:
+        out_file.truncate(0)
+        out_file.write("[")
+        while is_running:
+            try:
+                global session
+                report = session.next()
+                if report['class'] == 'TPV':
+                    if hasattr(report, 'time'):
+                        time = report.time
+                        print(time)
+                    if hasattr(report, 'lat'):
+                        lat = report.lat
+                        print(lat)
+                    if hasattr(report, 'lon'):
+                        lon = report.lon
+                        print(lon)
+                    print(report)
+                    route = {                        
+                        "lat": lat,
+                        "lng": lon,
+                        "time": time
+                    }                              
+                    json.dump(route, out_file, indent = True)
+                    out_file.write(", \n")                              
+                    sleep(6)
+            except KeyError:
+                pass
+            except KeyboardInterrupt:
+                quit()
+            except StopIteration:
+                session = None
+                print("GPSD has terminated")       
+        out_file.truncate(out_file.tell() - 3)        
+        out_file.write("]")
+
 #this will be used to create the route
 #currently not working due to gps module so new user is here instead
 def up(event):
     sense.clear()
     if event.action == ACTION_PRESSED:
-        response = requests.post('http://localhost:8080/userservice/create', json={"name": "test", "password": "test"})
+        #get the data from the route json file
+        route = open("route.json", "r")
+        data = json.load(route)
+        response = requests.post('http://localhost:8080/routeservice/create', json=data)
         if response.status_code == 200:
             sense.show_message("Success", text_colour=[0, 255, 0])
         else:
@@ -128,6 +168,6 @@ ready_image = [
 while True:
     #set all the pixels on the sense hat to green       
     if is_running == False:
-        sense.set_pixels(ready_image)
+        sense.set_pixels(ready_image)      
     pass
 
